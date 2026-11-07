@@ -1,7 +1,7 @@
 # RUNS — Nov 6, 2026 (all times UTC; 14:xx PST)
 
 Harness built and smoke-tested; full runs executed for Gemini, and for OpenAI
-once Erik's $5 credit landed (17:09 PT). **Both platforms now COMPLETE.**
+once the operator's $5 credit landed (17:09 PT). **Both platforms now COMPLETE.**
 (The OpenAI blocked section below is the earlier same-day record, superseded
 by the OpenAI — COMPLETE section that follows it.)
 
@@ -21,7 +21,7 @@ by the OpenAI — COMPLETE section that follows it.)
 - Confirming probe: `POST /v1/chat/completions` (gpt-4o-mini) → HTTP 429
   "You have no credits remaining… code: credit_balance_exhausted".
   `GET /v1/models` returns 200 — the key is valid; the account is unfunded.
-- Full evidence in `results/openai_blocked.json`. Fix: Erik tops up ~$5 at
+- Full evidence in `results/openai_blocked.json`. Fix: the operator tops up ~$5 at
   platform.openai.com/settings/organization/billing (setup doc step 1.2),
   then both OpenAI runs execute as-is. No OpenAI spend occurred ($0).
 
@@ -80,7 +80,7 @@ by the OpenAI — COMPLETE section that follows it.)
   (2,590 vs 2,658): Prompt Zero's cap held output constant, so the whole
   voice premium lands on the input side.
 
-## Aggregates — REPEATS, n=3 (Nov 6, 2026, Erik approved 17:21 PT)
+## Aggregates — REPEATS, n=3 (Nov 6, 2026, the operator approved 17:21 PT)
 
 Two additional full runs per platform/mode (tags `full2`, `full3`), same
 script, same audio masters, same runner settings as `full1`. Run order
