@@ -10,7 +10,7 @@
     "POST /v1/chat/completions (gpt-4o-mini, 5 max tokens) via surrogate HTTPS: HTTP 429 {\"error\": {\"message\": \"You have no credits remaining. Add credits to continue using the API\", \"type\": \"insufficient_quota\", \"code\": \"credit_balance_exhausted\"}}",
     "GET /v1/models works (200, 96 models) \u2014 the key is valid; the account simply has zero API credit."
   ],
-  "fix": "Erik adds a credit top-up at platform.openai.com/settings/organization/billing (setup doc step 1.2, ~$5). No code change needed; runners are ready to re-run.",
+  "fix": "The operator adds a credit top-up at platform.openai.com/settings/organization/billing (setup doc step 1.2, ~$5). No code change needed; runners are ready to re-run.",
   "turns": [],
   "errors": [
     "credit_balance_exhausted"
