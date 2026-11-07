@@ -1,0 +1,98 @@
+{
+  "platform": "gemini",
+  "model": "gemini-3.1-flash-live-preview",
+  "mode": "voice",
+  "tag": "smoke",
+  "auth_path": "surrogate_header",
+  "started_at": "2026-11-06T22:28:37+0000",
+  "turns": [
+    {
+      "turn": 1,
+      "mode": "voice",
+      "prompt_text": "This is a controlled test. Rules for the whole conversation: answer every message in two sentences or fewer. Do not use web search or any tools. Do not ask me follow-up questions. Do not offer to do anything else. Just answer what I asked. Confirm you understand in one short sentence.",
+      "prompt_words": 51,
+      "prompt_audio_seconds": 16.811,
+      "time_to_first_response_s": 0.923,
+      "time_to_complete_s": 2.23,
+      "usage_raw": {
+        "promptTokenCount": 831,
+        "responseTokenCount": 39,
+        "totalTokenCount": 870,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 189
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 620
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 39
+          }
+        ]
+      },
+      "input_transcript_heard": "This is a controlled test. Rules for the whole conversation: Answer every message in two sentences or fewer. Do not use web search or any tools. Do not ask me follow-up questions. Do not offer to do anything else. Just answer what I asked. Confirm you understand in one short sentence.",
+      "reply_transcript": "I understand the rules.",
+      "reply_words": 4,
+      "reply_sentences": 1,
+      "reply_audio_seconds": 1.31,
+      "input_tokens": 831,
+      "input_audio_tokens": 620,
+      "input_text_tokens": 189,
+      "input_cached_tokens": null,
+      "output_tokens": null,
+      "output_audio_tokens": 39,
+      "output_text_tokens": null,
+      "total_tokens": 870
+    },
+    {
+      "turn": 2,
+      "mode": "voice",
+      "prompt_text": "What is the difference between a virus and a bacterium, in plain language?",
+      "prompt_words": 13,
+      "prompt_audio_seconds": 4.04,
+      "time_to_first_response_s": 0.883,
+      "time_to_complete_s": 9.685,
+      "usage_raw": {
+        "promptTokenCount": 1006,
+        "responseTokenCount": 226,
+        "totalTokenCount": 1232,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 209
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 759
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 226
+          }
+        ]
+      },
+      "input_transcript_heard": "What is the difference between a virus and a bacterium, in plain language?",
+      "reply_transcript": "Bacteria are tiny, single-celled living things that can survive on their own. Viruses are much smaller and require a host to reproduce.",
+      "reply_words": 22,
+      "reply_sentences": 2,
+      "reply_audio_seconds": 8.8,
+      "input_tokens": 1006,
+      "input_audio_tokens": 759,
+      "input_text_tokens": 209,
+      "input_cached_tokens": null,
+      "output_tokens": null,
+      "output_audio_tokens": 226,
+      "output_text_tokens": null,
+      "total_tokens": 1232
+    }
+  ],
+  "errors": [],
+  "finished_at": "2026-11-06T22:29:10+0000"
+}

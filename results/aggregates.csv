@@ -1,0 +1,5 @@
+platform,model,mode,n,run_totals_input,mean_total_input,min_total_input,max_total_input,sd_total_input,mean_avg_input_per_turn,mean_total_output,mean_cap_compliance_pct,total_correct,total_partly,total_wrong,total_filler_hits,pooled_median_ttfr_s
+openai,gpt-realtime,voice,3,"[12244, 12247, 12511]",12334,12244,12511,153.3,948.8,2640.7,89.7,18,0,0,0,0.361
+openai,gpt-realtime,text,3,"[8075, 8086, 7796]",7985.7,7796,8086,164.3,614.3,2552.3,92.3,18,0,0,0,0.252
+gemini,gemini-3.1-flash-live-preview,voice,3,"[41059, 50870, 49251]",47060,41059,50870,5259.7,3620.0,3535,46.2,17,1,0,3,1.14
+gemini,gemini-3.1-flash-live-preview,text,3,"[26147, 29417, 33212]",29592,26147,33212,3535.7,2276.3,2843,97.4,18,0,0,0,0.855

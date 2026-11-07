@@ -1,0 +1,15 @@
+connected: model=gemini-3.1-flash-live-preview auth=surrogate_header
+[text] turn 1: first=0.855s complete=3.192s in=409 out=65 reply_words=7
+[text] turn 2: first=0.716s complete=12.309s in=515 out=295 reply_words=26
+[text] turn 3: first=0.773s complete=16.439s in=906 out=398 reply_words=33
+[text] turn 4: first=0.764s complete=9.433s in=1438 out=222 reply_words=24
+[text] turn 5: first=1.09s complete=15.453s in=1753 out=365 reply_words=41
+[text] turn 6: first=0.739s complete=9.921s in=2243 out=236 reply_words=21
+[text] turn 7: first=0.682s complete=15.523s in=2566 out=375 reply_words=39
+[text] turn 8: first=1.048s complete=10.191s in=3081 out=235 reply_words=30
+[text] turn 9: first=1.212s complete=12.036s in=3668 out=278 reply_words=33
+[text] turn 10: first=0.885s complete=3.458s in=3823 out=71 reply_words=16
+[text] turn 11: first=1.081s complete=7.723s in=3952 out=172 reply_words=21
+[text] turn 12: first=0.992s complete=5.983s in=4208 out=131 reply_words=36
+[text] turn 13: first=1.298s complete=18.094s in=4650 out=425 reply_words=55
+saved results/gemini_text_full3.json

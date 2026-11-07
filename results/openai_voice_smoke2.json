@@ -1,0 +1,96 @@
+{
+  "platform": "openai",
+  "model": "gpt-realtime",
+  "mode": "voice",
+  "tag": "smoke2",
+  "auth_path": "surrogate_header",
+  "started_at": "2026-11-07T01:10:08+0000",
+  "turns": [
+    {
+      "turn": 1,
+      "mode": "voice",
+      "prompt_text": "This is a controlled test. Rules for the whole conversation: answer every message in two sentences or fewer. Do not use web search or any tools. Do not ask me follow-up questions. Do not offer to do anything else. Just answer what I asked. Confirm you understand in one short sentence.",
+      "prompt_words": 51,
+      "prompt_audio_seconds": 16.811,
+      "time_to_first_response_s": 0.556,
+      "time_to_complete_s": 1.154,
+      "usage_raw": {
+        "total_tokens": 371,
+        "input_tokens": 290,
+        "output_tokens": 81,
+        "input_token_details": {
+          "text_tokens": 119,
+          "audio_tokens": 171,
+          "image_tokens": 0,
+          "cached_tokens": 64,
+          "cached_tokens_details": {
+            "text_tokens": 64,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 21,
+          "audio_tokens": 60
+        }
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "Understood, I\u2019ll keep it concise and direct.",
+      "reply_words": 7,
+      "reply_sentences": 1,
+      "reply_audio_seconds": 3.0,
+      "input_tokens": 290,
+      "input_audio_tokens": 171,
+      "input_text_tokens": 119,
+      "input_cached_tokens": 64,
+      "output_tokens": 81,
+      "output_audio_tokens": 60,
+      "output_text_tokens": 21,
+      "total_tokens": 371
+    },
+    {
+      "turn": 2,
+      "mode": "voice",
+      "prompt_text": "What is the difference between a virus and a bacterium, in plain language?",
+      "prompt_words": 13,
+      "prompt_audio_seconds": 4.04,
+      "time_to_first_response_s": 0.348,
+      "time_to_complete_s": 1.68,
+      "usage_raw": {
+        "total_tokens": 602,
+        "input_tokens": 424,
+        "output_tokens": 178,
+        "input_token_details": {
+          "text_tokens": 150,
+          "audio_tokens": 274,
+          "image_tokens": 0,
+          "cached_tokens": 320,
+          "cached_tokens_details": {
+            "text_tokens": 128,
+            "audio_tokens": 192,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 40,
+          "audio_tokens": 138
+        }
+      },
+      "input_transcript_heard": "What is the difference between a virus and a bacterium, in plain language?",
+      "reply_transcript": "A virus is much smaller and needs a host to survive, while a bacterium can live on its own and is usually bigger.",
+      "reply_words": 23,
+      "reply_sentences": 1,
+      "reply_audio_seconds": 6.9,
+      "input_tokens": 424,
+      "input_audio_tokens": 274,
+      "input_text_tokens": 150,
+      "input_cached_tokens": 320,
+      "output_tokens": 178,
+      "output_audio_tokens": 138,
+      "output_text_tokens": 40,
+      "total_tokens": 602
+    }
+  ],
+  "errors": [],
+  "finished_at": "2026-11-07T01:10:13+0000"
+}

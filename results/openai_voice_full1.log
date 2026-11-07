@@ -1,0 +1,14 @@
+[voice] turn 1: first=0.491s complete=1.276s in=290 out=100 reply_words=8
+[voice] turn 2: first=0.346s complete=1.958s in=443 out=209 reply_words=28
+[voice] turn 3: first=0.336s complete=1.134s in=618 out=102 reply_words=9
+[voice] turn 4: first=0.39s complete=1.609s in=619 out=156 reply_words=17
+[voice] turn 5: first=0.39s complete=2.937s in=746 out=320 reply_words=35
+[voice] turn 6: first=0.331s complete=1.154s in=978 out=100 reply_words=8
+[voice] turn 7: first=0.382s complete=2.432s in=857 out=274 reply_words=32
+[voice] turn 8: first=0.387s complete=2.207s in=1105 out=238 reply_words=24
+[voice] turn 9: first=0.357s complete=2.423s in=1179 out=272 reply_words=29
+[voice] turn 10: first=0.336s complete=1.337s in=1288 out=125 reply_words=12
+[voice] turn 11: first=0.394s complete=1.64s in=1249 out=158 reply_words=18
+[voice] turn 12: first=0.361s complete=2.251s in=1355 out=242 reply_words=24
+[voice] turn 13: first=0.387s complete=2.882s in=1517 out=294 reply_words=33
+saved results/openai_voice_full1.json

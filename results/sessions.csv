@@ -1,0 +1,17 @@
+platform,model,mode,tag,turns_completed,total_input_tokens,total_output_tokens,avg_input_tokens_per_turn,total_reply_audio_seconds,avg_time_to_first_response_s,worst_time_to_first_response_s,latency_first_turn_s,latency_last_turn_s,cap_compliance_pct,total_filler_hits,auto_correctness_correct,auto_correctness_partly,auto_correctness_wrong,errors
+gemini,gemini-3.1-flash-live-preview,text,full1,13,26147,2448,2011.3,95.1,1.049,2.227,1.62,2.149,100.0,0,6,0,0,0
+gemini,gemini-3.1-flash-live-preview,text,full2,13,29417,2813,2262.8,109.5,0.975,2.251,0.549,0.724,100.0,0,6,0,0,0
+gemini,gemini-3.1-flash-live-preview,text,full3,13,33212,3268,2554.8,127.5,0.933,1.298,0.855,1.298,92.3,0,6,0,0,0
+gemini,gemini-3.1-flash-live-preview,text,smoke,2,1027,573,513.5,22.4,1.073,1.55,0.595,1.55,50.0,0,0,0,0,0
+gemini,gemini-3.1-flash-live-preview,voice,full1,13,41059,2652,3158.4,103.3,8.652,52.512,0.912,1.279,92.3,0,6,0,0,0
+gemini,gemini-3.1-flash-live-preview,voice,full2,13,50870,4019,3913.1,157.8,1.09,1.673,0.958,1.192,23.1,2,6,0,0,0
+gemini,gemini-3.1-flash-live-preview,voice,full3,13,49251,3934,3788.5,154.8,1.27,1.736,0.857,1.369,23.1,1,5,1,0,1
+gemini,gemini-3.1-flash-live-preview,voice,smoke,2,1837,0,918.5,10.1,0.903,0.923,0.923,0.883,100.0,0,0,0,0,0
+openai,gpt-realtime,text,full1,13,8075,2658,621.2,105.0,0.255,0.286,0.278,0.25,92.3,0,6,0,0,0
+openai,gpt-realtime,text,full2,13,8086,2586,622.0,101.0,0.27,0.346,0.281,0.246,92.3,0,6,0,0,0
+openai,gpt-realtime,text,full3,13,7796,2413,599.7,94.7,0.244,0.33,0.239,0.224,92.3,0,6,0,0,0
+openai,gpt-realtime,text,smoke2,2,421,246,210.5,9.4,0.272,0.275,0.275,0.269,100.0,0,0,0,0,0
+openai,gpt-realtime,voice,full1,13,12244,2590,941.8,101.2,0.376,0.491,0.491,0.387,92.3,0,6,0,0,0
+openai,gpt-realtime,voice,full2,13,12247,2573,942.1,100.3,0.4,0.634,0.634,0.391,84.6,0,6,0,0,0
+openai,gpt-realtime,voice,full3,13,12511,2759,962.4,108.5,0.337,0.443,0.443,0.341,92.3,0,6,0,0,0
+openai,gpt-realtime,voice,smoke2,2,714,259,357.0,9.9,0.452,0.556,0.556,0.348,100.0,0,0,0,0,0

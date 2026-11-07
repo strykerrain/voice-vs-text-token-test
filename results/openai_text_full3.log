@@ -1,0 +1,14 @@
+[text] turn 1: first=0.239s complete=0.906s in=175 out=89 reply_words=3
+[text] turn 2: first=0.259s complete=1.68s in=286 out=185 reply_words=25
+[text] turn 3: first=0.217s complete=1.133s in=412 out=121 reply_words=11
+[text] turn 4: first=0.234s complete=1.485s in=410 out=163 reply_words=16
+[text] turn 5: first=0.229s complete=2.751s in=493 out=336 reply_words=37
+[text] turn 6: first=0.33s complete=1.213s in=708 out=105 reply_words=6
+[text] turn 7: first=0.259s complete=1.715s in=542 out=177 reply_words=19
+[text] turn 8: first=0.248s complete=1.916s in=650 out=216 reply_words=24
+[text] turn 9: first=0.237s complete=1.993s in=742 out=227 reply_words=23
+[text] turn 10: first=0.228s complete=1.182s in=803 out=123 reply_words=12
+[text] turn 11: first=0.226s complete=1.508s in=761 out=166 reply_words=18
+[text] turn 12: first=0.242s complete=2.108s in=845 out=242 reply_words=23
+[text] turn 13: first=0.224s complete=2.258s in=969 out=263 reply_words=32
+saved results/openai_text_full3.json

@@ -1,0 +1,571 @@
+{
+  "platform": "gemini",
+  "model": "gemini-3.1-flash-live-preview",
+  "mode": "voice",
+  "tag": "full2",
+  "auth_path": "surrogate_header",
+  "started_at": "2026-11-07T01:24:35+0000",
+  "turns": [
+    {
+      "turn": 1,
+      "mode": "voice",
+      "prompt_text": "This is a controlled test. Rules for the whole conversation: answer every message in two sentences or fewer. Do not use web search or any tools. Do not ask me follow-up questions. Do not offer to do anything else. Just answer what I asked. Confirm you understand in one short sentence.",
+      "prompt_words": 51,
+      "prompt_audio_seconds": 16.811,
+      "time_to_first_response_s": 0.958,
+      "time_to_complete_s": 3.853,
+      "usage_raw": {
+        "promptTokenCount": 830,
+        "responseTokenCount": 78,
+        "totalTokenCount": 908,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 188
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 620
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 78
+          }
+        ]
+      },
+      "input_transcript_heard": "This is a controlled test. Rules for the whole conversation: Answer every message in two sentences or fewer. Do not use web search or any tools. Do not ask me follow-up questions. Do not offer to do anything else. Just answer what I asked. Confirm you understand in one short sentence.",
+      "reply_transcript": "I understand the rules. I will answer accordingly.",
+      "reply_words": 8,
+      "reply_sentences": 2,
+      "reply_audio_seconds": 2.911,
+      "input_tokens": 830,
+      "input_audio_tokens": 620,
+      "input_text_tokens": 188,
+      "input_cached_tokens": null,
+      "output_tokens": 78,
+      "output_audio_tokens": 78,
+      "output_text_tokens": null,
+      "total_tokens": 908
+    },
+    {
+      "turn": 2,
+      "mode": "voice",
+      "prompt_text": "What is the difference between a virus and a bacterium, in plain language?",
+      "prompt_words": 13,
+      "prompt_audio_seconds": 4.04,
+      "time_to_first_response_s": 1.134,
+      "time_to_complete_s": 11.16,
+      "usage_raw": {
+        "promptTokenCount": 1055,
+        "responseTokenCount": 257,
+        "totalTokenCount": 1312,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 213
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 798
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 257
+          }
+        ]
+      },
+      "input_transcript_heard": "What is the difference between a virus and a bacterium, in plain language?",
+      "reply_transcript": "Bacteria are small organisms that can survive on their own. Viruses are smaller still and need a host cell to multiply. Is there anything else you'd like to know?",
+      "reply_words": 29,
+      "reply_sentences": 3,
+      "reply_audio_seconds": 10.02,
+      "input_tokens": 1055,
+      "input_audio_tokens": 798,
+      "input_text_tokens": 213,
+      "input_cached_tokens": null,
+      "output_tokens": 257,
+      "output_audio_tokens": 257,
+      "output_text_tokens": null,
+      "total_tokens": 1312
+    },
+    {
+      "turn": 3,
+      "mode": "voice",
+      "prompt_text": "Give me a simple way to remember the order of the planets from the sun outward.",
+      "prompt_words": 16,
+      "prompt_audio_seconds": 4.029,
+      "time_to_first_response_s": 1.132,
+      "time_to_complete_s": 18.062,
+      "usage_raw": {
+        "promptTokenCount": 1512,
+        "responseTokenCount": 430,
+        "totalTokenCount": 1942,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 264
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 1154
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 430
+          }
+        ]
+      },
+      "input_transcript_heard": "Give me the simple way to remember the order of the planets from the sun outward.",
+      "reply_transcript": "Try the sentence, \"My Very Excellent Mother Just Served Us Noodles.\" The first letter of each word stands for a planet. (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune) Are there other facts you need to remember?",
+      "reply_words": 37,
+      "reply_sentences": 2,
+      "reply_audio_seconds": 16.931,
+      "input_tokens": 1512,
+      "input_audio_tokens": 1154,
+      "input_text_tokens": 264,
+      "input_cached_tokens": null,
+      "output_tokens": 430,
+      "output_audio_tokens": 430,
+      "output_text_tokens": null,
+      "total_tokens": 1942
+    },
+    {
+      "turn": 4,
+      "mode": "voice",
+      "prompt_text": "If a car travels 180 miles in 3 hours, what is its average speed, and how do you get that number?",
+      "prompt_words": 21,
+      "prompt_audio_seconds": 6.281,
+      "time_to_first_response_s": 1.132,
+      "time_to_complete_s": 11.3,
+      "usage_raw": {
+        "promptTokenCount": 2247,
+        "responseTokenCount": 261,
+        "totalTokenCount": 2508,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 343
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 1740
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 261
+          }
+        ]
+      },
+      "input_transcript_heard": "If a car travels 180 miles in 3 hours, what is its average speed, and how do you get that number?",
+      "reply_transcript": "The average speed is 60 miles per hour. You calculate this by dividing the total distance (180 miles) by the total time (3 hours). Is that clear?",
+      "reply_words": 27,
+      "reply_sentences": 3,
+      "reply_audio_seconds": 10.181,
+      "input_tokens": 2247,
+      "input_audio_tokens": 1740,
+      "input_text_tokens": 343,
+      "input_cached_tokens": null,
+      "output_tokens": 261,
+      "output_audio_tokens": 261,
+      "output_text_tokens": null,
+      "total_tokens": 2508
+    },
+    {
+      "turn": 5,
+      "mode": "voice",
+      "prompt_text": "Summarize the plot of Romeo and Juliet, focusing on why the ending happens.",
+      "prompt_words": 13,
+      "prompt_audio_seconds": 4.423,
+      "time_to_first_response_s": 1.544,
+      "time_to_complete_s": 18.46,
+      "usage_raw": {
+        "promptTokenCount": 2718,
+        "responseTokenCount": 429,
+        "totalTokenCount": 3147,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 396
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 2110
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 429
+          }
+        ]
+      },
+      "input_transcript_heard": "So rise the plot of Romeo and Juliet, focusing on why the ending happens.",
+      "reply_transcript": "Romeo and Juliet belong to feuding families but fall in love. Their secret marriage and a series of misunderstandings, including fatal fights and banishment, lead to their tragic deaths. Their love ends the family conflict but costs them their lives. Is that what you were looking for?",
+      "reply_words": 47,
+      "reply_sentences": 4,
+      "reply_audio_seconds": 16.91,
+      "input_tokens": 2718,
+      "input_audio_tokens": 2110,
+      "input_text_tokens": 396,
+      "input_cached_tokens": null,
+      "output_tokens": 429,
+      "output_audio_tokens": 429,
+      "output_text_tokens": null,
+      "total_tokens": 3147
+    },
+    {
+      "turn": 6,
+      "mode": "voice",
+      "prompt_text": "What are three common reasons a houseplant's leaves turn yellow?",
+      "prompt_words": 10,
+      "prompt_audio_seconds": 3.03,
+      "time_to_first_response_s": 0.736,
+      "time_to_complete_s": 10.307,
+      "usage_raw": {
+        "promptTokenCount": 3363,
+        "responseTokenCount": 244,
+        "totalTokenCount": 3607,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 466
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 2613
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 244
+          }
+        ]
+      },
+      "input_transcript_heard": "What are three common reasons a houseplant's leaves turn yellow?",
+      "reply_transcript": "Overwatering is one common cause, as is under-watering. Nutrient deficiencies or incorrect lighting can also cause yellowing. Are those the issues you're seeing?",
+      "reply_words": 23,
+      "reply_sentences": 3,
+      "reply_audio_seconds": 9.54,
+      "input_tokens": 3363,
+      "input_audio_tokens": 2613,
+      "input_text_tokens": 466,
+      "input_cached_tokens": null,
+      "output_tokens": 244,
+      "output_audio_tokens": 244,
+      "output_text_tokens": null,
+      "total_tokens": 3607
+    },
+    {
+      "turn": 7,
+      "mode": "voice",
+      "prompt_text": "Explain what compound interest is, using a $100 example.",
+      "prompt_words": 9,
+      "prompt_audio_seconds": 4.458,
+      "time_to_first_response_s": 0.779,
+      "time_to_complete_s": 18.958,
+      "usage_raw": {
+        "promptTokenCount": 3807,
+        "responseTokenCount": 460,
+        "totalTokenCount": 4267,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 512
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 2967
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 460
+          }
+        ]
+      },
+      "input_transcript_heard": "Explain what compound interest is using a $100 example.",
+      "reply_transcript": "With compound interest, you earn interest on both the original principal and any accumulated interest. For example, if you have $100 at 5% interest, after one year you have $105, and the next year you earn interest on that $105. Does that make sense?",
+      "reply_words": 44,
+      "reply_sentences": 3,
+      "reply_audio_seconds": 18.14,
+      "input_tokens": 3807,
+      "input_audio_tokens": 2967,
+      "input_text_tokens": 512,
+      "input_cached_tokens": null,
+      "output_tokens": 460,
+      "output_audio_tokens": 460,
+      "output_text_tokens": null,
+      "total_tokens": 4267
+    },
+    {
+      "turn": 8,
+      "mode": "voice",
+      "prompt_text": "Translate 'Where is the nearest train station?' into French, German, and Spanish.",
+      "prompt_words": 12,
+      "prompt_audio_seconds": 4.853,
+      "time_to_first_response_s": 0.897,
+      "time_to_complete_s": 12.489,
+      "usage_raw": {
+        "promptTokenCount": 4535,
+        "responseTokenCount": 296,
+        "totalTokenCount": 4831,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 590
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 3547
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 296
+          }
+        ]
+      },
+      "input_transcript_heard": "Translate Where is the nearest train station? into French, German, and Spanish.",
+      "reply_transcript": "In French, say \"O\u00f9 est la gare la plus proche?\". In German, it's \"Wo ist der n\u00e4chste Bahnhof?\". In Spanish, ask \"\u00bfD\u00f3nde est\u00e1 la estaci\u00f3n de tren m\u00e1s cercana?\". Is that what you needed?",
+      "reply_words": 34,
+      "reply_sentences": 4,
+      "reply_audio_seconds": 11.6,
+      "input_tokens": 4535,
+      "input_audio_tokens": 3547,
+      "input_text_tokens": 590,
+      "input_cached_tokens": null,
+      "output_tokens": 296,
+      "output_audio_tokens": 296,
+      "output_text_tokens": null,
+      "total_tokens": 4831
+    },
+    {
+      "turn": 9,
+      "mode": "voice",
+      "prompt_text": "What is the boiling point of water at sea level in Fahrenheit and Celsius, and why does it change on a mountain?",
+      "prompt_words": 22,
+      "prompt_audio_seconds": 5.875,
+      "time_to_first_response_s": 1.19,
+      "time_to_complete_s": 14.899,
+      "usage_raw": {
+        "promptTokenCount": 5337,
+        "responseTokenCount": 348,
+        "totalTokenCount": 5685,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 897
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 3988
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 348
+          }
+        ]
+      },
+      "input_transcript_heard": "What is the boiling point of water at sea level in Fahrenheit and Celsius, and why does it change on a mountain?",
+      "reply_transcript": "At sea level, water boils at 212 degrees Fahrenheit or 100 degrees Celsius. On a mountain, lower air pressure means water needs less heat energy to boil, so the boiling point drops. Is there anything else you'd like to know about that?",
+      "reply_words": 42,
+      "reply_sentences": 3,
+      "reply_audio_seconds": 13.67,
+      "input_tokens": 5337,
+      "input_audio_tokens": 3988,
+      "input_text_tokens": 897,
+      "input_cached_tokens": null,
+      "output_tokens": 348,
+      "output_audio_tokens": 348,
+      "output_text_tokens": null,
+      "total_tokens": 5685
+    },
+    {
+      "turn": 10,
+      "mode": "voice",
+      "prompt_text": "Give me a two-line poem about autumn rain.",
+      "prompt_words": 8,
+      "prompt_audio_seconds": 2.67,
+      "time_to_first_response_s": 1.673,
+      "time_to_complete_s": 6.195,
+      "usage_raw": {
+        "promptTokenCount": 5658,
+        "responseTokenCount": 120,
+        "totalTokenCount": 5778,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 727
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 4401
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 120
+          }
+        ]
+      },
+      "input_transcript_heard": "Give me a two line poem about autumn rain.",
+      "reply_transcript": "Golden leaves fall as the cool drops descend,\nSoft earthy scents signal summer's end. Is that what you had in mind?",
+      "reply_words": 21,
+      "reply_sentences": 2,
+      "reply_audio_seconds": 4.52,
+      "input_tokens": 5658,
+      "input_audio_tokens": 4401,
+      "input_text_tokens": 727,
+      "input_cached_tokens": null,
+      "output_tokens": 120,
+      "output_audio_tokens": 120,
+      "output_text_tokens": null,
+      "total_tokens": 5778
+    },
+    {
+      "turn": 11,
+      "mode": "voice",
+      "prompt_text": "If today is Friday, what day of the week will it be 100 days from now? Show your working briefly.",
+      "prompt_words": 20,
+      "prompt_audio_seconds": 5.666,
+      "time_to_first_response_s": 0.852,
+      "time_to_complete_s": 12.116,
+      "usage_raw": {
+        "promptTokenCount": 5993,
+        "responseTokenCount": 286,
+        "totalTokenCount": 6279,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 780
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 4661
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 286
+          }
+        ]
+      },
+      "input_transcript_heard": "If today is Friday, what day of the week will it be 100 days from now? Show your working briefly.",
+      "reply_transcript": "To find the day, divide 100 by 7, which gives 14 with a remainder of 2. Starting from Friday, counting two days forward brings you to Sunday. Does that explanation work?",
+      "reply_words": 31,
+      "reply_sentences": 3,
+      "reply_audio_seconds": 11.18,
+      "input_tokens": 5993,
+      "input_audio_tokens": 4661,
+      "input_text_tokens": 780,
+      "input_cached_tokens": null,
+      "output_tokens": 286,
+      "output_audio_tokens": 286,
+      "output_text_tokens": null,
+      "total_tokens": 6279
+    },
+    {
+      "turn": 12,
+      "mode": "voice",
+      "prompt_text": "What is the difference between a simile and a metaphor, with one example of each?",
+      "prompt_words": 15,
+      "prompt_audio_seconds": 4.354,
+      "time_to_first_response_s": 0.948,
+      "time_to_complete_s": 15.146,
+      "usage_raw": {
+        "promptTokenCount": 6503,
+        "responseTokenCount": 339,
+        "totalTokenCount": 6842,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 841
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 5054
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 339
+          }
+        ]
+      },
+      "input_transcript_heard": "What is the difference between a simile and a metaphor, with one example of each?",
+      "reply_transcript": "A simile compares two things using \"like\" or \"as,\" while a metaphor states one thing *is* another. For example, \"Her smile is like a sunbeam\" is a simile, and \"Her smile is a sunbeam\" is a metaphor. Do you get the idea?",
+      "reply_words": 42,
+      "reply_sentences": 3,
+      "reply_audio_seconds": 13.35,
+      "input_tokens": 6503,
+      "input_audio_tokens": 5054,
+      "input_text_tokens": 841,
+      "input_cached_tokens": null,
+      "output_tokens": 339,
+      "output_audio_tokens": 339,
+      "output_text_tokens": null,
+      "total_tokens": 6842
+    },
+    {
+      "turn": 13,
+      "mode": "voice",
+      "prompt_text": "Name the four chambers of the human heart and what each side of the heart does.",
+      "prompt_words": 16,
+      "prompt_audio_seconds": 3.727,
+      "time_to_first_response_s": 1.192,
+      "time_to_complete_s": 19.985,
+      "usage_raw": {
+        "promptTokenCount": 7312,
+        "responseTokenCount": 471,
+        "totalTokenCount": 7783,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1153
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 5485
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 471
+          }
+        ]
+      },
+      "input_transcript_heard": "Name the four chambers of the human heart and what each side of the heart does.",
+      "reply_transcript": "The four chambers are the right atrium, right ventricle, left atrium, and left ventricle. The right side pumps deoxygenated blood to the lungs, while the left side pumps oxygenated blood throughout the body. This information is not medical advice or diagnosis, and you should see a healthcare professional or seek care. Does that make sense?",
+      "reply_words": 55,
+      "reply_sentences": 4,
+      "reply_audio_seconds": 18.801,
+      "input_tokens": 7312,
+      "input_audio_tokens": 5485,
+      "input_text_tokens": 1153,
+      "input_cached_tokens": null,
+      "output_tokens": 471,
+      "output_audio_tokens": 471,
+      "output_text_tokens": null,
+      "total_tokens": 7783
+    }
+  ],
+  "errors": [],
+  "finished_at": "2026-11-07T01:28:39+0000"
+}

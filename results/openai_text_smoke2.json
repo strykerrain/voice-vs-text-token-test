@@ -1,0 +1,94 @@
+{
+  "platform": "openai",
+  "model": "gpt-realtime",
+  "mode": "text",
+  "tag": "smoke2",
+  "auth_path": "surrogate_header",
+  "started_at": "2026-11-07T01:10:16+0000",
+  "turns": [
+    {
+      "turn": 1,
+      "mode": "text",
+      "prompt_text": "This is a controlled test. Rules for the whole conversation: answer every message in two sentences or fewer. Do not use web search or any tools. Do not ask me follow-up questions. Do not offer to do anything else. Just answer what I asked. Confirm you understand in one short sentence.",
+      "prompt_words": 51,
+      "time_to_first_response_s": 0.275,
+      "time_to_complete_s": 0.652,
+      "usage_raw": {
+        "total_tokens": 224,
+        "input_tokens": 175,
+        "output_tokens": 49,
+        "input_token_details": {
+          "text_tokens": 175,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 14,
+          "audio_tokens": 35
+        }
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "Got it, I understand.",
+      "reply_words": 4,
+      "reply_sentences": 1,
+      "reply_audio_seconds": 1.75,
+      "input_tokens": 175,
+      "input_audio_tokens": 0,
+      "input_text_tokens": 175,
+      "input_cached_tokens": 0,
+      "output_tokens": 49,
+      "output_audio_tokens": 35,
+      "output_text_tokens": 14,
+      "total_tokens": 224
+    },
+    {
+      "turn": 2,
+      "mode": "text",
+      "prompt_text": "What is the difference between a virus and a bacterium, in plain language?",
+      "prompt_words": 13,
+      "time_to_first_response_s": 0.269,
+      "time_to_complete_s": 1.71,
+      "usage_raw": {
+        "total_tokens": 443,
+        "input_tokens": 246,
+        "output_tokens": 197,
+        "input_token_details": {
+          "text_tokens": 211,
+          "audio_tokens": 35,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 44,
+          "audio_tokens": 153
+        }
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "A virus is a tiny particle that needs a host to reproduce, while a bacterium is a living cell that can grow on its own.",
+      "reply_words": 25,
+      "reply_sentences": 1,
+      "reply_audio_seconds": 7.65,
+      "input_tokens": 246,
+      "input_audio_tokens": 35,
+      "input_text_tokens": 211,
+      "input_cached_tokens": 0,
+      "output_tokens": 197,
+      "output_audio_tokens": 153,
+      "output_text_tokens": 44,
+      "total_tokens": 443
+    }
+  ],
+  "errors": [],
+  "finished_at": "2026-11-07T01:10:20+0000"
+}

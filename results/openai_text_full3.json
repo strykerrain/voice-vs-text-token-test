@@ -1,0 +1,545 @@
+{
+  "platform": "openai",
+  "model": "gpt-realtime",
+  "mode": "text",
+  "tag": "full3",
+  "auth_path": "surrogate_header",
+  "started_at": "2026-11-07T01:34:21+0000",
+  "turns": [
+    {
+      "turn": 1,
+      "mode": "text",
+      "prompt_text": "This is a controlled test. Rules for the whole conversation: answer every message in two sentences or fewer. Do not use web search or any tools. Do not ask me follow-up questions. Do not offer to do anything else. Just answer what I asked. Confirm you understand in one short sentence.",
+      "prompt_words": 51,
+      "time_to_first_response_s": 0.239,
+      "time_to_complete_s": 0.906,
+      "usage_raw": {
+        "total_tokens": 264,
+        "input_tokens": 175,
+        "output_tokens": 89,
+        "input_token_details": {
+          "text_tokens": 175,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 128,
+          "cached_tokens_details": {
+            "text_tokens": 128,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 13,
+          "audio_tokens": 76
+        }
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "Understood and ready.",
+      "reply_words": 3,
+      "reply_sentences": 1,
+      "reply_audio_seconds": 3.8,
+      "input_tokens": 175,
+      "input_audio_tokens": 0,
+      "input_text_tokens": 175,
+      "input_cached_tokens": 128,
+      "output_tokens": 89,
+      "output_audio_tokens": 76,
+      "output_text_tokens": 13,
+      "total_tokens": 264
+    },
+    {
+      "turn": 2,
+      "mode": "text",
+      "prompt_text": "What is the difference between a virus and a bacterium, in plain language?",
+      "prompt_words": 13,
+      "time_to_first_response_s": 0.259,
+      "time_to_complete_s": 1.68,
+      "usage_raw": {
+        "total_tokens": 471,
+        "input_tokens": 286,
+        "output_tokens": 185,
+        "input_token_details": {
+          "text_tokens": 210,
+          "audio_tokens": 76,
+          "image_tokens": 0,
+          "cached_tokens": 192,
+          "cached_tokens_details": {
+            "text_tokens": 192,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 42,
+          "audio_tokens": 143
+        }
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "A virus is a tiny agent that needs a host to reproduce, while a bacterium is a living cell that can grow on its own.",
+      "reply_words": 25,
+      "reply_sentences": 1,
+      "reply_audio_seconds": 7.15,
+      "input_tokens": 286,
+      "input_audio_tokens": 76,
+      "input_text_tokens": 210,
+      "input_cached_tokens": 192,
+      "output_tokens": 185,
+      "output_audio_tokens": 143,
+      "output_text_tokens": 42,
+      "total_tokens": 471
+    },
+    {
+      "turn": 3,
+      "mode": "text",
+      "prompt_text": "Give me a simple way to remember the order of the planets from the sun outward.",
+      "prompt_words": 16,
+      "time_to_first_response_s": 0.217,
+      "time_to_complete_s": 1.133,
+      "usage_raw": {
+        "total_tokens": 533,
+        "input_tokens": 412,
+        "output_tokens": 121,
+        "input_token_details": {
+          "text_tokens": 269,
+          "audio_tokens": 143,
+          "image_tokens": 0,
+          "cached_tokens": 128,
+          "cached_tokens_details": {
+            "text_tokens": 128,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 28,
+          "audio_tokens": 93
+        }
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "Use the phrase: \"My Very Educated Mother Just Served Us Nachos.\"",
+      "reply_words": 11,
+      "reply_sentences": 1,
+      "reply_audio_seconds": 4.65,
+      "input_tokens": 412,
+      "input_audio_tokens": 143,
+      "input_text_tokens": 269,
+      "input_cached_tokens": 128,
+      "output_tokens": 121,
+      "output_audio_tokens": 93,
+      "output_text_tokens": 28,
+      "total_tokens": 533
+    },
+    {
+      "turn": 4,
+      "mode": "text",
+      "prompt_text": "If a car travels 180 miles in 3 hours, what is its average speed, and how do you get that number?",
+      "prompt_words": 21,
+      "time_to_first_response_s": 0.234,
+      "time_to_complete_s": 1.485,
+      "usage_raw": {
+        "total_tokens": 573,
+        "input_tokens": 410,
+        "output_tokens": 163,
+        "input_token_details": {
+          "text_tokens": 317,
+          "audio_tokens": 93,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 35,
+          "audio_tokens": 128
+        }
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "The average speed is 60 miles per hour, found by dividing 180 miles by 3 hours.",
+      "reply_words": 16,
+      "reply_sentences": 1,
+      "reply_audio_seconds": 6.4,
+      "input_tokens": 410,
+      "input_audio_tokens": 93,
+      "input_text_tokens": 317,
+      "input_cached_tokens": 0,
+      "output_tokens": 163,
+      "output_audio_tokens": 128,
+      "output_text_tokens": 35,
+      "total_tokens": 573
+    },
+    {
+      "turn": 5,
+      "mode": "text",
+      "prompt_text": "Summarize the plot of Romeo and Juliet, focusing on why the ending happens.",
+      "prompt_words": 13,
+      "time_to_first_response_s": 0.229,
+      "time_to_complete_s": 2.751,
+      "usage_raw": {
+        "total_tokens": 829,
+        "input_tokens": 493,
+        "output_tokens": 336,
+        "input_token_details": {
+          "text_tokens": 365,
+          "audio_tokens": 128,
+          "image_tokens": 0,
+          "cached_tokens": 192,
+          "cached_tokens_details": {
+            "text_tokens": 192,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 65,
+          "audio_tokens": 271
+        }
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "Two lovers from feuding families fall in love in secret, and a series of tragic misunderstandings and timing issues lead to their deaths. The ending happens because of miscommunication and the delayed plan involving Juliet's faked death.",
+      "reply_words": 37,
+      "reply_sentences": 2,
+      "reply_audio_seconds": 13.55,
+      "input_tokens": 493,
+      "input_audio_tokens": 128,
+      "input_text_tokens": 365,
+      "input_cached_tokens": 192,
+      "output_tokens": 336,
+      "output_audio_tokens": 271,
+      "output_text_tokens": 65,
+      "total_tokens": 829
+    },
+    {
+      "turn": 6,
+      "mode": "text",
+      "prompt_text": "What are three common reasons a houseplant's leaves turn yellow?",
+      "prompt_words": 10,
+      "time_to_first_response_s": 0.33,
+      "time_to_complete_s": 1.213,
+      "usage_raw": {
+        "total_tokens": 813,
+        "input_tokens": 708,
+        "output_tokens": 105,
+        "input_token_details": {
+          "text_tokens": 437,
+          "audio_tokens": 271,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 23,
+          "audio_tokens": 82
+        }
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "Overwatering, underwatering, or lack of nutrients.",
+      "reply_words": 6,
+      "reply_sentences": 1,
+      "reply_audio_seconds": 4.1,
+      "input_tokens": 708,
+      "input_audio_tokens": 271,
+      "input_text_tokens": 437,
+      "input_cached_tokens": 0,
+      "output_tokens": 105,
+      "output_audio_tokens": 82,
+      "output_text_tokens": 23,
+      "total_tokens": 813
+    },
+    {
+      "turn": 7,
+      "mode": "text",
+      "prompt_text": "Explain what compound interest is, using a $100 example.",
+      "prompt_words": 9,
+      "time_to_first_response_s": 0.259,
+      "time_to_complete_s": 1.715,
+      "usage_raw": {
+        "total_tokens": 719,
+        "input_tokens": 542,
+        "output_tokens": 177,
+        "input_token_details": {
+          "text_tokens": 460,
+          "audio_tokens": 82,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 37,
+          "audio_tokens": 140
+        }
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "Compound interest means you earn interest on both the initial $100 and the interest that piles up over time.",
+      "reply_words": 19,
+      "reply_sentences": 1,
+      "reply_audio_seconds": 7.0,
+      "input_tokens": 542,
+      "input_audio_tokens": 82,
+      "input_text_tokens": 460,
+      "input_cached_tokens": 0,
+      "output_tokens": 177,
+      "output_audio_tokens": 140,
+      "output_text_tokens": 37,
+      "total_tokens": 719
+    },
+    {
+      "turn": 8,
+      "mode": "text",
+      "prompt_text": "Translate 'Where is the nearest train station?' into French, German, and Spanish.",
+      "prompt_words": 12,
+      "time_to_first_response_s": 0.248,
+      "time_to_complete_s": 1.916,
+      "usage_raw": {
+        "total_tokens": 866,
+        "input_tokens": 650,
+        "output_tokens": 216,
+        "input_token_details": {
+          "text_tokens": 510,
+          "audio_tokens": 140,
+          "image_tokens": 0,
+          "cached_tokens": 0,
+          "cached_tokens_details": {
+            "text_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 48,
+          "audio_tokens": 168
+        }
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "French: O\u00f9 est la gare la plus proche ?  \nGerman: Wo ist der n\u00e4chste Bahnhof?  \nSpanish: \u00bfD\u00f3nde est\u00e1 la estaci\u00f3n de tren m\u00e1s cercana?",
+      "reply_words": 24,
+      "reply_sentences": 3,
+      "reply_audio_seconds": 8.4,
+      "input_tokens": 650,
+      "input_audio_tokens": 140,
+      "input_text_tokens": 510,
+      "input_cached_tokens": 0,
+      "output_tokens": 216,
+      "output_audio_tokens": 168,
+      "output_text_tokens": 48,
+      "total_tokens": 866
+    },
+    {
+      "turn": 9,
+      "mode": "text",
+      "prompt_text": "What is the boiling point of water at sea level in Fahrenheit and Celsius, and why does it change on a mountain?",
+      "prompt_words": 22,
+      "time_to_first_response_s": 0.237,
+      "time_to_complete_s": 1.993,
+      "usage_raw": {
+        "total_tokens": 969,
+        "input_tokens": 742,
+        "output_tokens": 227,
+        "input_token_details": {
+          "text_tokens": 574,
+          "audio_tokens": 168,
+          "image_tokens": 0,
+          "cached_tokens": 320,
+          "cached_tokens_details": {
+            "text_tokens": 320,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 46,
+          "audio_tokens": 181
+        }
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "Water boils at 212\u00b0F or 100\u00b0C at sea level. On a mountain, the lower air pressure makes it boil at a lower temperature.",
+      "reply_words": 23,
+      "reply_sentences": 2,
+      "reply_audio_seconds": 9.05,
+      "input_tokens": 742,
+      "input_audio_tokens": 168,
+      "input_text_tokens": 574,
+      "input_cached_tokens": 320,
+      "output_tokens": 227,
+      "output_audio_tokens": 181,
+      "output_text_tokens": 46,
+      "total_tokens": 969
+    },
+    {
+      "turn": 10,
+      "mode": "text",
+      "prompt_text": "Give me a two-line poem about autumn rain.",
+      "prompt_words": 8,
+      "time_to_first_response_s": 0.228,
+      "time_to_complete_s": 1.182,
+      "usage_raw": {
+        "total_tokens": 926,
+        "input_tokens": 803,
+        "output_tokens": 123,
+        "input_token_details": {
+          "text_tokens": 622,
+          "audio_tokens": 181,
+          "image_tokens": 0,
+          "cached_tokens": 448,
+          "cached_tokens_details": {
+            "text_tokens": 448,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 27,
+          "audio_tokens": 96
+        }
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "Autumn rain falls light and clean, golden leaves dance in the sheen.",
+      "reply_words": 12,
+      "reply_sentences": 1,
+      "reply_audio_seconds": 4.8,
+      "input_tokens": 803,
+      "input_audio_tokens": 181,
+      "input_text_tokens": 622,
+      "input_cached_tokens": 448,
+      "output_tokens": 123,
+      "output_audio_tokens": 96,
+      "output_text_tokens": 27,
+      "total_tokens": 926
+    },
+    {
+      "turn": 11,
+      "mode": "text",
+      "prompt_text": "If today is Friday, what day of the week will it be 100 days from now? Show your working briefly.",
+      "prompt_words": 20,
+      "time_to_first_response_s": 0.226,
+      "time_to_complete_s": 1.508,
+      "usage_raw": {
+        "total_tokens": 927,
+        "input_tokens": 761,
+        "output_tokens": 166,
+        "input_token_details": {
+          "text_tokens": 665,
+          "audio_tokens": 96,
+          "image_tokens": 0,
+          "cached_tokens": 448,
+          "cached_tokens_details": {
+            "text_tokens": 448,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 37,
+          "audio_tokens": 129
+        }
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "100 days divided by 7 leaves a remainder of 2, so 100 days from Friday will be Sunday.",
+      "reply_words": 18,
+      "reply_sentences": 1,
+      "reply_audio_seconds": 6.45,
+      "input_tokens": 761,
+      "input_audio_tokens": 96,
+      "input_text_tokens": 665,
+      "input_cached_tokens": 448,
+      "output_tokens": 166,
+      "output_audio_tokens": 129,
+      "output_text_tokens": 37,
+      "total_tokens": 927
+    },
+    {
+      "turn": 12,
+      "mode": "text",
+      "prompt_text": "What is the difference between a simile and a metaphor, with one example of each?",
+      "prompt_words": 15,
+      "time_to_first_response_s": 0.242,
+      "time_to_complete_s": 2.108,
+      "usage_raw": {
+        "total_tokens": 1087,
+        "input_tokens": 845,
+        "output_tokens": 242,
+        "input_token_details": {
+          "text_tokens": 716,
+          "audio_tokens": 129,
+          "image_tokens": 0,
+          "cached_tokens": 448,
+          "cached_tokens_details": {
+            "text_tokens": 448,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 55,
+          "audio_tokens": 187
+        }
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "A simile compares using \"like\" or \"as,\" e.g., \"Her smile was like sunshine.\" A metaphor states it directly, e.g., \"Her smile was sunshine.\"",
+      "reply_words": 23,
+      "reply_sentences": 1,
+      "reply_audio_seconds": 9.35,
+      "input_tokens": 845,
+      "input_audio_tokens": 129,
+      "input_text_tokens": 716,
+      "input_cached_tokens": 448,
+      "output_tokens": 242,
+      "output_audio_tokens": 187,
+      "output_text_tokens": 55,
+      "total_tokens": 1087
+    },
+    {
+      "turn": 13,
+      "mode": "text",
+      "prompt_text": "Name the four chambers of the human heart and what each side of the heart does.",
+      "prompt_words": 16,
+      "time_to_first_response_s": 0.224,
+      "time_to_complete_s": 2.258,
+      "usage_raw": {
+        "total_tokens": 1232,
+        "input_tokens": 969,
+        "output_tokens": 263,
+        "input_token_details": {
+          "text_tokens": 782,
+          "audio_tokens": 187,
+          "image_tokens": 0,
+          "cached_tokens": 448,
+          "cached_tokens_details": {
+            "text_tokens": 448,
+            "audio_tokens": 0,
+            "image_tokens": 0
+          }
+        },
+        "output_token_details": {
+          "text_tokens": 63,
+          "audio_tokens": 200
+        }
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "The four chambers are the right atrium, right ventricle, left atrium, and left ventricle. The right side pumps blood to the lungs, and the left side pumps oxygenated blood to the body.",
+      "reply_words": 32,
+      "reply_sentences": 2,
+      "reply_audio_seconds": 10.0,
+      "input_tokens": 969,
+      "input_audio_tokens": 187,
+      "input_text_tokens": 782,
+      "input_cached_tokens": 448,
+      "output_tokens": 263,
+      "output_audio_tokens": 200,
+      "output_text_tokens": 63,
+      "total_tokens": 1232
+    }
+  ],
+  "errors": [],
+  "finished_at": "2026-11-07T01:34:45+0000"
+}

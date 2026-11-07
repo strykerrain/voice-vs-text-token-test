@@ -1,0 +1,22 @@
+# Secrets — never commit keys or local credential material
+.env
+.env.*
+*.key
+*.pem
+credentials*
+*secret*
+.hsurr*
+dynamic_credentials*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local tooling / OS
+.muse-github-snapshot-sync.json
+.DS_Store
+
+# Piper voice model (63 MB third-party download; config JSON is committed)
+audio/voices/*.onnx

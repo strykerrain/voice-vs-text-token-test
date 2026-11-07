@@ -1,0 +1,18 @@
+{
+  "platform": "openai",
+  "model": "gpt-realtime",
+  "tag": "smoke",
+  "status": "blocked_before_first_turn",
+  "checked_at": "2026-11-06T22:35:05+0000",
+  "auth_path": "surrogate_header (websocket handshake returned 101; session created)",
+  "evidence": [
+    "Realtime websocket (voice and text modes) closed by server: 1013 'insufficient_quota.credit_balance_exhausted'",
+    "POST /v1/chat/completions (gpt-4o-mini, 5 max tokens) via surrogate HTTPS: HTTP 429 {\"error\": {\"message\": \"You have no credits remaining. Add credits to continue using the API\", \"type\": \"insufficient_quota\", \"code\": \"credit_balance_exhausted\"}}",
+    "GET /v1/models works (200, 96 models) \u2014 the key is valid; the account simply has zero API credit."
+  ],
+  "fix": "Erik adds a credit top-up at platform.openai.com/settings/organization/billing (setup doc step 1.2, ~$5). No code change needed; runners are ready to re-run.",
+  "turns": [],
+  "errors": [
+    "credit_balance_exhausted"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "platform": "gemini",
+  "model": "gemini-3.1-flash-live-preview",
+  "mode": "text",
+  "tag": "smoke",
+  "auth_path": "surrogate_header",
+  "started_at": "2026-11-06T22:29:23+0000",
+  "turns": [
+    {
+      "turn": 1,
+      "mode": "text",
+      "prompt_text": "This is a controlled test. Rules for the whole conversation: answer every message in two sentences or fewer. Do not use web search or any tools. Do not ask me follow-up questions. Do not offer to do anything else. Just answer what I asked. Confirm you understand in one short sentence.",
+      "prompt_words": 51,
+      "time_to_first_response_s": 0.595,
+      "time_to_complete_s": 6.056,
+      "usage_raw": {
+        "promptTokenCount": 410,
+        "responseTokenCount": 143,
+        "totalTokenCount": 553,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 189
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 201
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 143
+          }
+        ]
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "I understand the rules provided. I will answer each message within two sentences or fewer.",
+      "reply_words": 15,
+      "reply_sentences": 2,
+      "reply_audio_seconds": 5.46,
+      "input_tokens": 410,
+      "input_audio_tokens": 201,
+      "input_text_tokens": 189,
+      "input_cached_tokens": null,
+      "output_tokens": 143,
+      "output_audio_tokens": 143,
+      "output_text_tokens": null,
+      "total_tokens": 553
+    },
+    {
+      "turn": 2,
+      "mode": "text",
+      "prompt_text": "What is the difference between a virus and a bacterium, in plain language?",
+      "prompt_words": 13,
+      "time_to_first_response_s": 1.55,
+      "time_to_complete_s": 18.506,
+      "usage_raw": {
+        "promptTokenCount": 617,
+        "responseTokenCount": 430,
+        "totalTokenCount": 1047,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 221
+          },
+          {
+            "modality": "AUDIO",
+            "tokenCount": 344
+          }
+        ],
+        "responseTokensDetails": [
+          {
+            "modality": "AUDIO",
+            "tokenCount": 430
+          }
+        ]
+      },
+      "input_transcript_heard": "",
+      "reply_transcript": "Bacteria are tiny, single-celled organisms that can cause disease but also perform beneficial functions. Viruses are much smaller, non-living particles that must invade cells to reproduce. One key difference is their ability to respond to antibiotics.",
+      "reply_words": 36,
+      "reply_sentences": 3,
+      "reply_audio_seconds": 16.95,
+      "input_tokens": 617,
+      "input_audio_tokens": 344,
+      "input_text_tokens": 221,
+      "input_cached_tokens": null,
+      "output_tokens": 430,
+      "output_audio_tokens": 430,
+      "output_text_tokens": null,
+      "total_tokens": 1047
+    }
+  ],
+  "errors": [],
+  "finished_at": "2026-11-06T22:29:48+0000"
+}
