@@ -117,3 +117,7 @@ The full, unflattering list is in [RESULTS.md](RESULTS.md#limitations-and-anomal
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## Addendum: the Muse clean test
+
+Muse has no realtime voice API, so it was tested inside its own app instead. The text leg of the same 13-turn script is fully logged (1,157,335 input tokens); the voice leg's usage is recorded nowhere a user can reach — three attempts confirmed it. The original Nov 5 session's numbers were also recovered exactly from a retired logging pipeline. Full write-up: [muse-clean-test/README.md](muse-clean-test/README.md)
