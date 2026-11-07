@@ -28,7 +28,7 @@ The entire repo tree — code, JSONs, logs, CSVs, docs — was grepped for:
 | Email addresses | none found |
 | Account / org / project IDs (`org-`, `acct_`, `proj_`, session IDs) | none found |
 | Absolute home paths (`/home/…`) | found in 13 run `.log` files (final "saved …" line); **redacted** to repo-relative paths — see RESULTS.md |
-| Operator name | no surname/email anywhere; the first name "Erik" appears inside `results/RUNS.md` and `results/openai_blocked.json` as part of the as-run historical record (the run log was published unedited by design) |
+| Operator name | removed from all current files; historical references use "the operator". Original commit history retains the as-run record, accepted by the operator; history and release tags are unchanged. |
 
 Environment-specific paths that remain, deliberately, in the as-run code:
 the vault-client helper path in `code/common.py` / `code/openai_runner.py`
