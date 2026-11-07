@@ -116,4 +116,4 @@ The full, unflattering list is in [RESULTS.md](RESULTS.md#limitations-and-anomal
 
 ## License
 
-MIT — see [LICENSE](LICENSE). Author: Erik Hurley, 2026.
+MIT — see [LICENSE](LICENSE).
